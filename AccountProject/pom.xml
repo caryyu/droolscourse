@@ -20,6 +20,7 @@
     <module>drools-lesson35</module>
     <module>drools-lesson4</module>
     <module>drools-lesson-pojo</module>
+    <module>drools-lesson-dsl</module>
   </modules>
   <build>
     <plugins>

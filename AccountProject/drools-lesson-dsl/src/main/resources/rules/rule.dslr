@@ -1,0 +1,14 @@
+package droolscourse
+
+import droolscourse.Person;
+
+expander rule.dsl
+
+rule "Simple"
+when
+    There is a person with
+        - name is "Lisa"
+        - age is less than 24
+then
+    Log "{name} age is {age}";
+end
