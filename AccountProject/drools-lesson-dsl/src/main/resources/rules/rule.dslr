@@ -10,5 +10,6 @@ when
         - name is "Lisa"
         - age is less than 24
 then
+    All;
     Log "{name} age is {age}";
 end

@@ -31,4 +31,9 @@ public class Person {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s,%d,%s",getName(),getAge(),getLocation());
+    }
 }
